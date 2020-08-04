@@ -1,0 +1,21 @@
+{
+  "@sapui5/generator-sapui5-templates": {
+    "promptValues": {
+      "ApplicationTitle": "Demo Orders",
+      "ApplicationDescription": "Browse Orders - Demo application",
+      "FLP": false,
+      "ServiceBaseUri": "https://service.odata.org/V2/Northwind/Northwind.svc/",
+      "DatasourceUrl": "/V2",
+      "ObjectCollection": "Orders",
+      "ObjectCollection_Key": "OrderID",
+      "Object_Identifier": "OrderID",
+      "Object_Number": "",
+      "Object_UnitOfMeasure": "",
+      "LineItemCollection": "",
+      "LineItemCollection_Key": "",
+      "LineItem_Identifier": "",
+      "LineItem_Number": "",
+      "LineItem_UnitOfMeasure": ""
+    }
+  }
+}

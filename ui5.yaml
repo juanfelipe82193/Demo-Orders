@@ -1,0 +1,12 @@
+specVersion: "1.0"
+metadata:
+  name: demoorders
+type: application
+# https://sap.github.io/ui5-tooling/pages/extensibility/CustomServerMiddleware/
+server:
+  customMiddleware:
+  - name: ui5-middleware-simpleproxy
+    mountPath: /V2
+    afterMiddleware: compression
+    configuration:
+      baseUri: https://service.odata.org/V2/Northwind/Northwind.svc/
